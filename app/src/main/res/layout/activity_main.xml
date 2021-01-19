@@ -5,6 +5,6 @@
 
     <TextView
         android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Your activity:\n" />
+        android:text="After granting the permission, it takes a few moments to get the results (at least on real devices, not sure how to make it work on emulator)" />
 
 </FrameLayout>

@@ -8,7 +8,6 @@ import androidx.annotation.UiThread
 import com.google.android.gms.location.*
 import java.util.*
 
-
 class TransitionRecognition(context: Context) {
     private var activityRecognitionClient: ActivityRecognitionClient? = null
     private val pendingIntent: PendingIntent
@@ -62,5 +61,8 @@ class TransitionRecognition(context: Context) {
         activityRecognitionClient = null
     }
 
+    protected fun finalize() {
+        stopTracking()
+    }
 
 }
