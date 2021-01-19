@@ -1,7 +1,9 @@
 # TransitionRecognitionApp
-This example shows hot to read the user's activity using Activity Recognition Transition API.
+A sample to show how to handle User-Activity-Recognition, based on :
 
-In this post I explain more in details the difference between how we had to do it before and how we should do now with the
-transition API:
-
-https://proandroiddev.com/new-activity-recognition-transition-api-f4cdb5cd5708
+- https://github.com/jarroyoesp/TransitionRecognitionApp
+- https://developer.android.com/codelabs/activity-recognition-transition#5
+- https://developers.google.com/android/reference/com/google/android/gms/location/ActivityRecognitionClient
+- https://proandroiddev.com/new-activity-recognition-transition-api-f4cdb5cd5708
+- https://developer.android.com/guide/topics/location/transitions#kotlin
+- https://medium.com/@abhiappmobiledeveloper/android-activity-recognition-api-b7f61847d9dc
